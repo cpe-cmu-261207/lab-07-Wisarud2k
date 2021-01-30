@@ -19,7 +19,10 @@ const Posts = () => {
     useEffect(fetchPosts,[])
     return (
         <>
-            <h1>All Posts</h1>
+            <h1>All Posts</h1><br></br>
+            <Link href = "/">
+                    <button>Home</button>
+            </Link>
             <>
                 {
                     posts.map(post => (
@@ -37,7 +40,10 @@ const Posts = () => {
                             </Link>
                         </>
                     ))
+
+                    
                 }
+                
             </>
         </>
     )

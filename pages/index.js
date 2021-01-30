@@ -7,8 +7,16 @@ const Home = () => {
     <>
       <h1>This is home page</h1>
       <Link href = "post">
-        <button>test</button>
+        <button>Check post</button>
       </Link>
+      <br></br>
+      <Link href = "portfolio">
+        <button>
+          Portfolio
+        </button>
+      </Link>
+
+  
     </>
   )
 }
