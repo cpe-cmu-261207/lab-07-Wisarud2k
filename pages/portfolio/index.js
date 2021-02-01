@@ -13,7 +13,7 @@ const portfolio = () => {
                     <td><Link href={"/portfolio"}>Home</Link></td>
                     <td><Link href={"/portfolio/gallery"}>Gallery</Link></td>
                     <td><Link href={"/portfolio/contact"}>Contact</Link></td>
-                    <td><Link href={"/portfolio/calgpa"}>GPA Calc</Link></td>
+                    <td><Link href={"/portfolio/grade_cal/grade_cal"}>GPA Calc</Link></td>
                     <td><Link href={"/"}>Mainpage</Link></td>
                 </tr>
             </table>
